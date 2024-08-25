@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: com.MySkillHub.rest_mysqlapp
+  datasource:
+    url: jdbc:mysql://localhost:3306/apps
+    username: root
+    password: Mahi@7799
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
